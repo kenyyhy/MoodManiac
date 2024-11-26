@@ -10,7 +10,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/mood-maniac.git
+git clone https://github.com/yourusername/MoodManiac.git
 Navigate to the project directory:
 bash
 Copy code
