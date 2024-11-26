@@ -1,0 +1,178 @@
+/* Variables */
+:root {
+  --primary-color: #4567b7; /* Soothing Blue */
+  --secondary-color: #8bc34a; /* Calming Green */
+  --background-color: #f7f7f7; /* Light Gray */
+  --text-color: #333333; /* Dark Gray */
+  --font-family: Arial, sans-serif;
+  --font-size: 16px;
+  --spacing: 20px;
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mood Tracker Styles */
+.mood-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mood-btn {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#note {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#save-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#export-btn {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Goals, Sleep, Triggers, Medication Styles */
+#goal, #sleep-hours, #trigger-input {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#add-goal-btn, #add-sleep-btn, #add-trigger-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#med-form {
+  margin-bottom: 20px;
+}
+
+#med-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#med-form input, #med-form select {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#add-med-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Display Sections */
+h2 {
+  margin-top: 40px;
+}
+.mood-btn.selected {
+  background-color: var(--primary-color); /* Highlight color when selected */
+  color: #ffffff; /* Keep text color white */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add a slight shadow */
+}
+
+#today-mood, #your-moods, #goals-list, #triggers-list, #sleep-log {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+#med-log{
+  margin-bottom: 100px; /* Increased margin-bottom */
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+/* Footer Styles */
+footer {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: 10px;
+  position:center;
+ 
+
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--secondary-color);
+}

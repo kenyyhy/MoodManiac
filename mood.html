@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Maniac</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"aebe459dbe313734d459f60bd77c8688"})});</script>
+</head>
+<body>    
+    <div class="container">
+        <h1>Mood Tracker</h1>
+        <p>Track your daily mood</p>
+
+        <!-- Mood selector -->
+        <div class="mood-selector">
+            <button class="mood-btn" data-mood="Happy" style="background-color:yellow ;" title="Happy"><img src="./Emoticons/Happy.png" alt="Happy"></button>
+            <button class="mood-btn" data-mood="Satisfied" style="background-color: green;" title="Satisfied"><img src="./Emoticons/Satisfied.png" alt="Satisfied"></button>
+            <button class="mood-btn" data-mood="ROFL" style="background-color: goldenrod;" title="ROFL"><img src="./Emoticons/ROFL.png" alt="ROFL"></button>
+            <button class="mood-btn" data-mood="Joyful" style="background-color:limegreen;" title="Joyful"><img src="./Emoticons/Joyful.png" alt="Joyful"></button>
+            <button class="mood-btn" data-mood="Amused" style="background-color: lightsalmon;" title="Amused"><img src="./Emoticons/Amused.png" alt="Amused"></button>
+            <button class="mood-btn" data-mood="Cool" style="background-color: royalblue;" title="Cool"><img src="./Emoticons/Cool.png" alt="Cool"></button>
+            <button class="mood-btn" data-mood="Blessed" style="background-color: rgb(35, 161, 140);" title="Blessed"><img src="./Emoticons/Blessed.png" alt="Blessed"></button>
+            <button class="mood-btn" data-mood="Content" style="background-color: mintcream;" title="Content"><img src="./Emoticons/Content.png" alt="Content"></button>
+            <button class="mood-btn" data-mood="Indifferent" style="background-color: beige;" title="Indifferent"><img src="./Emoticons/Indifferent.png" alt="Indifferent"></button>
+            <button class="mood-btn" data-mood="Lying" style="background-color: black;" title="Lieing"><img src="./Emoticons/Lieing.png" alt="Lieing"></button>
+            <button class="mood-btn" data-mood="Nerdy" style="background-color: grey;" title="Nerdy"><img src="./Emoticons/nerd.png" alt="Nerdy"></button>
+            <button class="mood-btn" data-mood="Broken" style="background-color: blue ;" title="Broken"><img src="./Emoticons/Broken.png" alt="Broken"></button>
+            <button class="mood-btn" data-mood="Curious" style="background-color: paleturquoise;" title="Curious"><img src="./Emoticons/Curious.png" alt="Curious"></button>
+            <button class="mood-btn" data-mood="Excited" style="background-color: darkturquoise ;" title="Excited"><img src="./Emoticons/Excited.png" alt="Excited" style="width: 85%;"></button>
+            <button class="mood-btn" data-mood="Relaxed" style="background-color: lightblue;" title="Relaxed"><img src="./Emoticons/Relaxed.png" alt="Relaxed"></button>
+            <button class="mood-btn" data-mood="Grateful" style="background-color: plum; " title="Grateful"><img src="./Emoticons/Grateful.png" alt="Grateful" style="width: 80%;"></button>
+            <button class="mood-btn" data-mood="Confident" style="background-color: navy;" title="Confident"><img src="./Emoticons/Confident.png" alt="Confident" style="width: 90%;"></button>
+            <button class="mood-btn" data-mood="Euphoric" style="background-color: pink;" title="Euphoric"><img src="./Emoticons/Euphoric.png" alt="Euphoric"></button>
+            <button class="mood-btn" data-mood="Creative" style="background-color: purple;" title="Creative"><img src="./Emoticons/Creative.png" alt="Creative"></button>
+            <button class="mood-btn" data-mood="Dizzy" style="background-color: yellowgreen ;" title="Dizzy"><img src="./Emoticons/Dizzy.png" alt="Dizzy"></button>
+            <button class="mood-btn" data-mood="Oprimistic" style="background-color: greenyellow;" title="Oprimistic"><img src="./Emoticons/Optimistic.png" alt="Optimistic"></button>  
+            <button class="mood-btn" data-mood="Listening" style="background-color: cyan;" title="Listening"><img src="./Emoticons/Listening.png" alt="Listening"></button>
+            <button class="mood-btn" data-mood="Playful" style="background-color: turquoise ;" title="Playful"><img src="./Emoticons/Playful.png" alt="Playful"></button>  
+            <button class="mood-btn" data-mood="Competitive" style="background-color: darkorange;" title="Competitive"><img src="./Emoticons/Competitive.png" alt="Competitive"></button>
+            <button class="mood-btn" data-mood="Proud" style="background-color: gold;" title="Proud"><img src="./Emoticons/Proud.png" alt="Proud"></button>
+            <button class="mood-btn" data-mood="Patriotic" style="background-color: lavenderblush;" title="Patriotic"><img src="./Emoticons/Patriotic.png" alt="Patriotic" style="width: 90%;"></button>
+            <button class="mood-btn" data-mood="Focused" style="background-color: darkgray;" title="Focused"><img src="./Emoticons/Focused.png" alt="Focused"></button>
+            <button class="mood-btn" data-mood="Calm" style="background-color: lightblue;" title="Calm"><img src="./Emoticons/Calm.png" alt="Calm"></button>
+            <button class="mood-btn" data-mood="Thoughtful" style="background-color: ghostwhite;" title="Thoughtful"><img src="./Emoticons/Ideas.png" alt="Thoughtful"></button>
+            <button class="mood-btn" data-mood="Serene" style="background-color: peachpuff;" title="Serene"><img src="./Emoticons/Serene.png" alt="Serene" style="width: 90%;"></button>
+            <button class="mood-btn" data-mood="Studying" style="background-color: brown;" title="Studying"><img src="./Emoticons/Thoughtful.png" alt="Studying"></button>  
+            <button class="mood-btn" data-mood="Reflective" style="background-color: lightgray;" title="Reflective"><img src="./Emoticons/Reflective.png" alt="Reflective"style="width:95%;"></button>
+            <button class="mood-btn" data-mood="Sporty" style="background-color: crimson;" title="Sporty"><img src="./Emoticons/Sporty.png" alt="Sporty"></button>
+            <button class="mood-btn" data-mood="Patient" style="background-color: skyblue;" title="Patient"><img src="./Emoticons/Patient.png" alt="Patient"style="width: 95%;"></button>
+            <button class="mood-btn" data-mood="Open Minded" style="background-color: rgb(131, 96, 108);" title="Open Minded"><img src="./Emoticons/OpenMinded.png" alt="Open Minded"></button>
+            <button class="mood-btn" data-mood="Victorious" style="background-color: burlywood;" title="Victorious"><img src="./Emoticons/Victorious.png" alt="Victorious" style="width: 95%;"></button>
+            <button class="mood-btn" data-mood="Immersed" style="background-color:blueviolet;" title="Immersed"><img src="./Emoticons/Immersed.png" alt="Immersed" style="width: 80%;"></button>
+            <button class="mood-btn" data-mood="Broken Hearted" style="background-color: red;" title="Broken Hearted"><img src="./Emoticons/Broken Hearted.png" alt="Broken Hearted"></button>
+            <button class="mood-btn" data-mood="Sad" style="background-color: darkblue;" title="Sad"><img src="./Emoticons/Sad.png" alt="Sad"></button>
+            <button class="mood-btn" data-mood="Angry" style="background-color: darkred;" title="Angry"><img src="./Emoticons/Angry.png" alt="Angry"></button>
+            <button class="mood-btn" data-mood="Fearful" style="background-color: powderblue;" title="Fearful"><img src="./Emoticons/Fearful.png" alt="Fearful"></button>
+            <button class="mood-btn" data-mood="Anxious" style="background-color: orange;" title="Anxious"><img src="./Emoticons/Anxious.png" alt="Anxious"></button>
+            <button class="mood-btn" data-mood="Frustrated" style="background-color: rosybrown;" title="Frustrated"><img src="./Emoticons/Frustrated.png" alt="Frustrated"></button>
+            <button class="mood-btn" data-mood="Dissapointed" style="background-color: grey;" title="Dissapointed"><img src="./Emoticons/Dissapointed.png" alt="Dissapointed"></button>
+            <button class="mood-btn" data-mood="Sick" style="background-color: green;" title="Sick"><img src="./Emoticons/Sick.png" alt="Sick" style="width: 90%;"></button>
+      
+        </div>
+
+        <!-- Note input -->
+        <textarea id="note" placeholder="Add a note..."></textarea>
+
+        <!-- Goals section -->
+        <p>Goals</p>
+        <input type="text" id="goal" placeholder="Enter goal">
+
+        <!-- Sleep section -->
+        <p>Sleep</p>
+        <input type="number" id="sleep-hours" placeholder="Hours slept">
+
+        <!-- Mental Health Triggers section -->
+        <p>Mental Health Triggers</p>
+        <input type="text" id="trigger-input" placeholder="Add trigger">
+
+        <!-- Medication section -->
+        <p>Medication</p>
+        <form id="med-form">
+            <label for="med-name">Name:</label>
+            <input type="text" id="med-name" required />
+            <br />
+            <label for="med-dosage">Dosage:</label>
+            <input type="text" id="med-dosage" required />
+            <br />
+            <label for="med-frequency">Frequency:</label>
+            <select id="med-frequency" required>
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+            </select>
+            <br />
+        </form>
+
+        <!-- Button to save all data -->
+        <button id="save-btn">Save All Data</button>
+        <button id="export-btn" onclick="exportData()">Export Data</button>
+
+        <!-- Display sections -->
+        <h2>Today's Mood</h2>
+        <div id="today-mood"></div>
+        <h2>Your Moods</h2>
+        <div id="your-moods"></div>
+        <h2>Goals</h2>
+        <div id="goals-list"></div>
+        <h2>Triggers</h2>
+        <div id="triggers-list"></div>
+        <h2>Sleep Log</h2>
+        <div id="sleep-log"></div>
+        <h2>Medication Log</h2>
+        <div id="med-log"></div>
+    </div>
+    
+   
+    <footer>
+        <p>&copy; 2024 MoodMainiac</p>
+        <ul>
+            <li><a href="./mood.html" class="nav-link">Home</a></li>
+            <li><a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=e4b01bbc-0e1b-40ab-8492-e05d81b2ee06" class="nav-link">Terms and Conditions</a></li>
+            <li><a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=808d621c-c0b1-44a0-91b7-a4dc89c340ce"  class="nav-link">Privacy Policy</a></li>
+            <li><a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=e69af417-72b2-4c3d-a861-3a7a36373c97"class="nav-link">Disclaimer</a></li>
+                </ul>
+        <p>All emojis designed by OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
