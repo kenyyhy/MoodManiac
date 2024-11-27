@@ -25,7 +25,7 @@ Mood Maniac is a web-based mood tracker designed to help you track and reflect o
 - View your mood history to see trends and patterns in your emotional state.
 - Refresh the page to load your saved data.
 ### License
-[- This project is licensed under the GNU General Public License v3.0.
+- [ This project is licensed under the GNU General Public License v3.0.
 ](https://www.gnu.org/licenses/gpl-3.0.en.html)
 ### Contributing
 - Contributions are welcome! To contribute:
@@ -38,5 +38,6 @@ Mood Maniac is a web-based mood tracker designed to help you track and reflect o
 
 # The Main Website for this Project is:
 - https://moodmaniac.com/mood.html
-
+# Emojis
+- All emojis designed by OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0
 
