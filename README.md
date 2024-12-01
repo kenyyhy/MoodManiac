@@ -3,7 +3,7 @@
 Mood Maniac is a web-based mood tracker designed to help you track and reflect on your emotional well-being over time. Log your moods, view trends, and gain insights into your emotional state to improve your mental health awareness.
 
 ## Features
-- **Track daily moods**: Log your mood for each day using a simple 5-point scale.
+- **Track daily moods**: Log your mood for each day using emotes
 - **Mood history**: View your mood history over days, weeks, and months.
 - **Personal insights**: Get insights based on mood patterns and track potential triggers or changes in your emotional state.
 - **Data storage**: Mood data is saved locally in your browser for privacy.
