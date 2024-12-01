@@ -11,7 +11,7 @@ Mood Maniac is a web-based mood tracker designed to help you track and reflect o
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/mood-maniac.git
+   git clone https://github.com/kenyyhy/mood-maniac.git
 2. cd MoodManiac
 3. Open index.html in your web browser to start using Mood Maniac.
 
