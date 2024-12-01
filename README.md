@@ -15,6 +15,7 @@ Mood Maniac is a web-based mood tracker designed to help you track and reflect o
 2. cd MoodManiac
 3. Open index.html in your web browser to start using Mood Maniac.
 
+live website at https://moodmaniac.com
 
 ## Technologies Used
 - HTML, CSS, and JavaScript for front-end development.
